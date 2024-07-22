@@ -2,9 +2,7 @@ import axios from 'axios';
 import { Place, PlacesApiResponse } from '../modules/placesTypes';
 
 const GOOGLE_PLACES_API_KEY ='AIzaSyDRkLrHX81OD3BQoVtk-hR1tRpUH0iluR4';
-const BASE_URL = process.env.REACT_APP_API_URL;
-
-console.log(process.env.REACT_APP_API_KEY , 'one');
+const BASE_URL = 'https://maps.googleapis.com/maps/api/place/nearbysearch/json';
 
 export const getNearbyRestaurants = async (
   latitude: number,
@@ -14,7 +12,7 @@ export const getNearbyRestaurants = async (
     const response = await axios.get<PlacesApiResponse>(BASE_URL, {
       params: {
         location: `${latitude},${longitude}`,
-        radius: 1500,
+        radius: 10000,
         type: 'restaurant',
         key: GOOGLE_PLACES_API_KEY,
       },

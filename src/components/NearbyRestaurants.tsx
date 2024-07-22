@@ -57,7 +57,7 @@ const NearbyRestaurants: React.FC = () => {
       <AppText fontWeight="large" fontSize="large" color="text.primary">
         Nearby Restaurants
       </AppText>
-      <Grid container spacing={2}>
+      <Grid container spacing={2} marginBlock={1}>
         {restaurants.map((restaurant, index) => {
           const distance = calculateDistance(
             location.latitude,
@@ -67,7 +67,7 @@ const NearbyRestaurants: React.FC = () => {
           );
 
           return (
-            <Grid item xs={12} md={6} key={index}>
+            <Grid item xs={12} md={4} sm={6} key={index}>
               <RestaurantCard
                 restaurant={restaurant}
                 distance={distance}
