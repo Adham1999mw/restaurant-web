@@ -2,7 +2,7 @@
 import React from 'react';
 import { Card, CardContent, CardMedia, Box, Button } from '@mui/material';
 import AppText from './AppText';
-import { Restaurant } from '../../modules/restaurants';
+// import { Restaurant } from '../../modules/restaurants';
 import { Star, Restaurant as RestaurantIcon, LocationOn, SocialDistance } from '@mui/icons-material';
 
 interface RestaurantCardProps {
