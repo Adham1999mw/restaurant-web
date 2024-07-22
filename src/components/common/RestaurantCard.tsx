@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CardContent, CardMedia, Box, Button, Grid } from '@mui/material';
+import { Card, CardContent, CardMedia, Box, Grid } from '@mui/material';
 import AppText from './AppText';
 import { Star, Restaurant as RestaurantIcon, LocationOn, SocialDistance } from '@mui/icons-material';
 
