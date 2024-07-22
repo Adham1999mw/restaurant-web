@@ -67,7 +67,7 @@ const NearbyRestaurants: React.FC = () => {
           );
 
           return (
-            <Grid item xs={12} md={4} sm={6} key={index}>
+            <Grid item xs={12} md={6} sm={6} key={index}>
               <RestaurantCard
                 restaurant={restaurant}
                 distance={distance}

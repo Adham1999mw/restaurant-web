@@ -16,7 +16,7 @@ const fontWeightMapping = {
 const fontSizeMapping = {
   small: '0.8rem',
   medium: '1rem',
-  large: '1.2rem',
+  large: '1.4rem',
 };
 
 const AppText: React.FC<AppTextProps> = ({

@@ -4,7 +4,7 @@ const lightTheme = createTheme({
   palette: {
     mode: 'light',
     primary: {
-      main: '#53f1bc', 
+      main: '#6fc2a6', 
       contrastText: '#ffffff', 
     },
     secondary: {
@@ -20,7 +20,7 @@ const lightTheme = createTheme({
       secondary: '#555555',
     },
     action: {
-      active: '#53f1bc', 
+      active: '#6fc2a6', 
       hover: '#d0f7f1', 
     },
   },
@@ -47,7 +47,7 @@ const darkTheme = createTheme({
       secondary: '#bbbbbb',
     },
     action: {
-      active: '#53f1bc',
+      active: '#6fc2a6',
       hover: '#00796b', 
     },
   },
