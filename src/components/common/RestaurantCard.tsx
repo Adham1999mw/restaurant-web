@@ -12,7 +12,7 @@ interface RestaurantCardProps {
 
 const RestaurantCard: React.FC<RestaurantCardProps> = ({ restaurant, distance }) => {
   const imageUrl = restaurant?.photos && restaurant.photos.length > 0
-    ? `https://maps.googleapis.com/maps/api/place/photo?maxwidth=150&photoreference=${restaurant.photos[0].photo_reference}&key=${process.env.REACT_APP_API_KEY}`
+    ? `https://maps.googleapis.com/maps/api/place/photo?maxwidth=150&photoreference=${restaurant.photos[0].photo_reference}&key=AIzaSyDRkLrHX81OD3BQoVtk-hR1tRpUH0iluR4`
     : 'https://via.placeholder.com/150';
 
 
