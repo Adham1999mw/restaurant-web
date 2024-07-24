@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import { getCurrentLocation } from '../services/locationService';
 import { getNearbyRestaurants } from '../services/placesService';
-import { Position, Restaurant, Location } from '../modules/restaurants';
+import { Position, Restaurant, Location } from '../models/restaurants';
 import { Grid } from '@mui/material';
 import RestaurantCard from './common/RestaurantCard';
 import AppText from './common/AppText';
